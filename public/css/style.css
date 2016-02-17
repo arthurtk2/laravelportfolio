@@ -6,3 +6,12 @@
 .img-responsive.img-center {
   margin: 0 auto;
 }
+
+.jumbotron {
+background-image: url("../img/jumbotron_bg.jpg");
+background-size: cover;}
+
+.navbar-text{
+	color: white !important;
+}
+

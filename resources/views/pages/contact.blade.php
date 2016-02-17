@@ -2,6 +2,6 @@
 
 	@section('contact')
 
-	teste2
+		teste2
 
 	@stop

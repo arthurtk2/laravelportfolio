@@ -33,20 +33,18 @@
 
     @yield('contact')
 
-		<div class="navbar navbar-default navbar-fixed-bottom">
-      <p class="navbar-text text-center">© 2015 - Site portfólio criado por
-          <a href="" target="_blank" >Arthur Utiyama Marubayashi</a>
-      </p>
-	  </div>
-
 	</div>
 
+  <div class="container">
+      <div class="navbar navbar-inverse navbar-fixed-bottom text-center">
 
-
-</body>
-
+      <p class="navbar-text">© 2015 - Site portfólio criado por <a href="" target="_blank" class="text-footer">Arthur Utiyama Marubayashi</a>
+      </p>
+    </div>
+  </div>
+  
 <script src="//code.jquery.com/jquery-1.11.3.min.js"></script>
 <script src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
-
+</body>
 </html>

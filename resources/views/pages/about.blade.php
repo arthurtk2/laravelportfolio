@@ -2,24 +2,28 @@
 @extends('todo')
 
 	@section('content2')
-
 		<!--Header principal-->
 		<div class="row ">
-			<div class="col-lg-12 text-center ">
-					<h1 class="page-header">
-						<img class="img-circle img-responsive img-center" src="http://placehold.it/200x200" alt="">
-					</h1>
-				<p>
-					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus imperdiet est ut sem scelerisque, at pretium velit posuere. Phasellus in nisl tellus. Nam sit amet odio magna. Mauris quam est, pellentesque ut bibendum quis, luctus ut erat. Nulla erat leo, scelerisque in sagittis id, aliquam ut purus. Nullam laoreet blandit nulla, eu lacinia elit laoreet sit amet. Mauris et nulla sed nisi maximus hendrerit. Maecenas faucibus massa id ante molestie, at aliquam mi aliquam. Aenean vitae mi odio. Morbi quis sapien porttitor, tincidunt neque sit amet, pharetra eros. Maecenas consectetur ac orci sit amet lacinia. Nulla congue quis sapien sed sodales.
-				</p>
-			</div>	
-		</div>
+			<div class="col-lg-12">
+					<div class="page-header text-center">
+						<img class="img-circle img-responsive img-center" src="{{ URL::asset('img/perfil.jpg') }}" alt="">
+						<h2>{{ $nome }}</h2>
+						<p>{{ $email }}</p>
+					</div>
 
-		<!--Infos Extras-->
-		<div class="row">
-			<div class="col-lg-12 text-center">
-                <h2>{{ $nome }}</h2>
-                <p>{{ $email }}</p>
-            </div>
+					<h2 class="text-center">Um pouco sobre mim!</h2>
+
+					<p>
+						<dl>
+							<dt>Estudo</dt><dd> - Sou um estudante de Análise e Desenvolvimento de Sistemas na Universidade Cruzeiro do Sul , estou cursando atualmente o 3º semestre com conclusão prevista para o final de 2016.</dd>
+							</br>	
+							<dt>Trabalho</dt><dd> - Atualmente sou estágiário na Defensoria Pública do Estado de São Paulo na área de Infraestrutura por 1 ano , realizei alguns projetos utilizando a framework chamada CodeIginiter para um sistema interno da organização.</dd>
+							</br>
+							<dt>Conhecimentos</dt><dd> - Tenho como foco principal o estudo da framework conhecida como Laravel , onde a mesma se encontra na versão 5 , além disso possuo conhecimentos front end como : HTML5 , CSS , Bootstrap , JavaScript , Angular , JQuery.E conceitos básicos de MVC (Model View Controller) e POO.</dd>
+							</br>
+							<dt>Extras</dt><dd> - Além disso , já realizei projetos utilizando C# , Java , Unity3D e Desenvolvimento Web para Jogos.</dd>
+						</dl>
+					</p>
+			</div>	
 		</div>
 	@stop

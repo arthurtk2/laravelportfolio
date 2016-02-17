@@ -11,10 +11,10 @@
 |
 */
 
-Route::get('/', 'IndexController@index');
-Route::get('about', 'IndexController@about');
-Route::get('projects', 'IndexController@projects');
-Route::get('contact', 'IndexController@contact');
+Route::get('/', 'IndexPage@index');
+Route::get('about', 'AboutPage@index');
+Route::get('projects', 'PostsController@index');
+Route::get('contact', 'ContactPage@index');
 
 Route::controllers([
 		'auth' => 'Auth\AuthController',
